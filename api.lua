@@ -81,7 +81,7 @@ gadmin.load = function(thm,title,btcmds)
 	if not btcmds then 
 		btcmds = true
 	end
-	local sgui = instance('ScreenGui',game:service('CoreGui'),{Name = 'admin'})
+	local sgui = instance('ScreenGui',game:service('CoreGui'),{Name = 'skroopz Admin'})
 	local frameopened = false
 	local frame = instance('ImageLabel',sgui,{
 		Image = c,
